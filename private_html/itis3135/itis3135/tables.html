@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Employee table</title>
+        <center><h2>HTML Tables</h2></center>
+		<meta name="description" content="3135 Activity">
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="activity2.css">
+	</head>
+    <body>
+        <p>Go back to main page: <a href = "index.html">Home</a></p>
+        <h3>My Tabular Data</h3>
+        <ol>
+            <li>Samir Appikatla sappikat@uncc.edu 4</li>
+            <li>D.I. von Briesen dvonbri1@uncc.edu 1</li>
+            <li>Esam Abdullah eabdullah@gmail.com 31</li>
+            <li>Medina Gomez gomez_med8@yahoo.com 3</li>
+            <li>Ben Jones bjones@gmail.com 2</li>
+            <li>John Smeraldi jsmeraldi@yahoo.com 5</li>
+            <li>Mark Mutton markmutton@gmail.com 20</li>
+        </ol>
+
+        <h3>Employee Data in Simple Table</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Years of Service</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Samir Appikatla</td>
+                    <td>sappikat@uncc.edu</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td>D.I. von Briesen</td>
+                    <td>dvonbri1@uncc.edu</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>Esam Abdullah</td>
+                    <td>eabdullah@gmail.com</td>
+                    <td>31</td>
+                </tr>
+                <tr>
+                    <td>Medina Gomez</td>
+                    <td>gomez_med8@yahoo.com</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>Ben Jones</td>
+                    <td>bjones@gmail.com</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>John Smeraldi</td>
+                    <td>jsmeraldi@yahoo.com</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td>Mark Mutton</td>
+                    <td>markmutton@gmail.com</td>
+                    <td>20</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h3>Employee Data in Complex Table</h3>
+        <table>
+            <figure>Employee Information</figure>
+            <thead>
+                <tr>
+                    <th>Category</th>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Years of Service</th>
+                    <th>Salary</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan = "2">Bosses</td>
+                    <td>Samir Appikatla</td>
+                    <td>sappikat@uncc.edu</td>
+                    <td>4</td>
+                    <td>100000</td>
+                </tr>
+                <tr>
+                    <td>D.I. von Briesen</td>
+                    <td>dvonbri1@uncc.edu</td>
+                    <td>1</td>
+                    <td>100000</td>
+                </tr>
+                <tr>
+                    <td rowspan = "2">Minions</td>
+                    <td>Esam Abdullah</td>
+                    <td>eabdullah@gmail.com</td>
+                    <td>31</td>
+                    <td>100000</td>
+                </tr>
+                <tr>
+                    <td>Medina Gomez</td>
+                    <td>gomez_med8@yahoo.com</td>
+                    <td>3</td>
+                    <td>100000</td>
+                </tr>
+                <tr>
+                    <td rowspan = "3">Associates</td>
+                    <td>Ben Jones</td>
+                    <td>bjones@gmail.com</td>
+                    <td>2</td>
+                    <td>100000</td>
+                </tr>
+                <tr>
+                    <td>John Smeraldi</td>
+                    <td>jsmeraldi@yahoo.com</td>
+                    <td>5</td>
+                    <td>100000</td>
+                </tr>
+                <tr>
+                    <td>Mark Mutton</td>
+                    <td>markmutton@gmail.com</td>
+                    <td>20</td>
+                    <td>100000</td>
+                </tr>
+                <tr>
+                    <td colspan = "1" id = "tab1" headers = "blank"></td>
+                    <td colspan = "1" id = "tab2" headers = "blank"></td>
+                    <td colspan = "1"id = "tab2" headers = "blank"></td>
+                    <td colspan = "1">Total Years: 66</td>
+                    <td colspan = "1">Salary Total: 700000</td>
+                </tr>
+            </tbody>
+        </table>
+        <footer>
+            <a href="https://validator.w3.org/check?uri=referer">
+                <img src="https://nicocasel.net/blog/wp-content/uploads/2015/12/html5-w3c-logo.png" width="88" height="31" alt="Validate webpage HTML." />
+            </a>
+            <a href="https://jigsaw.w3.org/css-validator/check/referer">
+                <img src="https://jigsaw.w3.org/css-validator/images/vcss" width="88" height="31" alt="Validate webpage CSS." />
+            </a>
+        </footer>
+    </body>
+</html>

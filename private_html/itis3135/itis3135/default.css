@@ -1,0 +1,39 @@
+img {
+    width: 800px;
+    height: 400px;
+    margin: auto;
+}
+body {
+    background-color: #013e5f;
+    color: #fafafa;
+    margin: 0;
+    padding: 0;
+}
+#page-wrapper {
+    height: 100%;
+    width: 100%;
+    max-width: 950px;
+    margin: auto;
+}
+#content-wrapper {
+    width: 100%;
+    max-width: 950px;
+    margin: auto;
+    text-align: center;
+}			
+a {
+    color: #ffffff;
+}
+
+.description {
+    text-align: center;
+    font-family: garamond;
+}
+
+div {
+    background-color: #EDDEA4;
+    color: #013e5f;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: auto;
+}
